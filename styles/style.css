@@ -13,6 +13,18 @@
     color: rgba(19, 19, 24, 0.70);
 }
 
+.primary-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
 /* nav related style */
 .nav-section {
     display: flex;
@@ -123,4 +135,37 @@
     text-align: center;
     font-size: 16px;
     font-weight: 700;
+}
+
+/* about section styles */
+
+.about-section {
+    display: flex;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 70px;
+    max-width: 1620px;
+    gap: 20px;
+}
+
+.about-section-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about-section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about-section-description ul li {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.about-section-column img {
+    width: 800px;
+    height: 450px;
 }
